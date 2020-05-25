@@ -4,11 +4,21 @@
 {% block content %}
 
 <div class="jumbotron">
-    <h1 class="display-4">NICOLÁS PLAZA</h1>
-    <p class="lead">Ingeniero Civil Mecánico</p>
-    <hr class="my-4">
-    <p>Caracas, Venezuela</p>
-    <a class="btn btn-primary btn-lg" href="{{ url_for('CV') }}" role="button">Visitar</a>
+    <div class="row">
+  
+       <!--Agrego fotografia-->
+        <div class="col-md-5">
+         <img class="d-block w-100" src="../static/Nicolas1.jpg" alt="Imagen 1" width="50" height="500">
+        </div>
+      <div class="column">
+          <h1 class="display-4">NICOLÁS PLAZA</h1>
+          <p class="lead">Ingeniero Civil Mecánico</p>
+          <hr class="my-4">
+          <p>Caracas, Venezuela</p>
+          <a class="btn btn-primary btn-lg" href="{{ url_for('CV') }}" role="button">Visitar</a>
+      </div>
+
+    </div>
 </div>
 
 {% endblock %}
