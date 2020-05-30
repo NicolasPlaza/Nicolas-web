@@ -1,7 +1,17 @@
+appdirs==1.4.4
+asgiref==3.2.7
 click==7.1.2
+colorama==0.4.3
+distlib==0.3.0
+Django==3.0.6
+filelock==3.0.12
 Flask==1.1.2
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
+virtualenv==20.0.21
 Werkzeug==1.0.1

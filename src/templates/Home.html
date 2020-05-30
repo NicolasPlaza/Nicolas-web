@@ -3,22 +3,240 @@
 
 {% block content %}
 
-<div class="jumbotron">
-    <div class="row">
-  
-       <!--Agrego fotografia-->
-        <div class="col-md-5">
-         <img class="d-block w-100" src="../static/Nicolas1.jpg" alt="Imagen 1" width="50" height="500">
-        </div>
-      <div class="column">
-          <h1 class="display-4">NICOLÁS PLAZA</h1>
-          <p class="lead">Ingeniero Civil Mecánico</p>
-          <hr class="my-4">
-          <p>Caracas, Venezuela</p>
-          <a class="btn btn-primary btn-lg" href="{{ url_for('CV') }}" role="button">Visitar</a>
-      </div>
-
-    </div>
+<div class="row">
+  <div class=" col-md-4">
+    <br>>
+  </div>
+  <div class=" col-md-4">
+    <img  src="../static/logo_Ermitaño3.jpg" alt="Imagen 1" height="150" style="width:100%">
+  </div>
+  <div class=" col-md-4">
+    <br>
+  </div>             
 </div>
+
+
+
+<hr>
+<!--Linea divisoria-->
+
+
+<br>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <!--Carousel de fotos 1-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../static/Produccion1.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">   
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Produccion2.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Produccion3.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <br>
+
+      <div class="card-body">
+        <h4 class="card-title"><strong> Producción </strong></h4>
+        <p class="card-text">Vino Casero de Mora producido de forma artesanal con las mas fina selección de moras</p>
+        <br>
+        <br>
+        <a href="#" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-4">
+    <div class="card">
+      <!--Carousel de fotos 2-->
+      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../static/Evento1.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">   
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Evento2.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Evento3.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Evento4.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <br>
+
+      <div class="card-body">
+        <h4 class="card-title"><strong> Eventos </strong></h4>
+        <p class="card-text">Vino Casero de Mora perfecto para todo tipo de eventos. Desde reuniones familiares, Bodas, cumpleaños...</p>
+        <br>
+        <br>
+        <a href="#" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-4">
+    <div class="card">
+      <!--Carousel de fotos 3-->
+      <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../static/Atardecer1.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">   
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Atardecer2.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../static/Atardecer3.jpg" alt="Imagen 1" width="30" height="250">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <br>
+
+      <div class="card-body">
+        <h4 class="card-title"><strong> Promociones </strong></h4>
+        <p class="card-text">Actualmente conramos con promociones para fiestas y eventos... xxxx</p>
+        <br>
+        <br>
+        <a href="#" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<br />
+<br />
+
+<!--
+<div class="row">
+  <div class=" col-md-4"> Descripción <strong> Aplicación 1</strong> xxx xxx xxxx xxx x xx xxx xx x x x xxxx x x
+    xxxx x xxxxxx xx x xxxxx xxxxxxxx x</div>
+  <div class=" col-md-4"> Descripción <strong> Aplicación 2</strong> xxx xxx xxxx xxx x xx xxx xx x x x xxxx x x
+    xxxx x xxxxxx xx x xxxxx xxxxxxxx x </div>
+  <div class=" col-md-4"> Descripción <strong> Aplicación 3</strong> xxx xxx xxxx xxx x xx xxx xx x x x xxxx x x
+    xxxx x xxxxxx xx x xxxxx xxxxxxxx x </div>
+</div>
+-->
+<br />
+<br />
+
+<hr>
+<!--Linea divisoria-->
+
+
+
+<!--
+xxxxxxxxx                                                    Pie de Pagina         xxxxxxxxxxxxxxxxxxxxxxxxxx
+<div class="row">
+  <div class="text-center col-lg-6 offset-lg-3">
+    <h4>VINO DE MORA</h4>
+    <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="#">El Ermitaño</a></p>
+  </div>
+</div>
+</div>
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="../assets/dist/js/bootstrap.bundle.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 {% endblock %}

@@ -5,14 +5,14 @@ app = Flask(__name__)
 def home():
     return render_template('Home.html')
 
-@app.route('/Aplicaciones')
-def Aplicaciones():
-    return render_template('Aplicaciones.html')
+@app.route('/Historia')
+def Historia():
+    return render_template('Historia.html')
 
 
-@app.route('/CV')
-def CV():
-    return render_template('CV.html')
+@app.route('/Fotos')
+def Fotos():
+    return render_template('Fotos.html')
 
 
 if __name__ == '__main__' :
